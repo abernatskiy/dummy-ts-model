@@ -1,0 +1,8 @@
+type BlockPrice @entity {
+  id: ID! # block.toString()
+  block: Int! @index
+  timestamp: Int! @index
+  price: Float!
+  volume: Float!
+  swapsCount: Int!
+}
