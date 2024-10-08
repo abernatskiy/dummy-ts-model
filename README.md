@@ -22,7 +22,12 @@ Predictive performance is very poor, which is expected for this type of architec
    source venv/bin/activate
    ```
 
-3. Run the live inference script:
+3. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Run the live inference script:
    ```bash
    ./plotPrediction.py
    ```
